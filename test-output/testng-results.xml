@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="56" total="57" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="64716" started-at="2018-11-02T06:50:19Z" finished-at="2018-11-02T06:51:24Z">
+    <groups>
+    </groups>
+    <test name="VCLAS_TESTCASES" duration-ms="64716" started-at="2018-11-02T06:50:19Z" finished-at="2018-11-02T06:51:24Z">
+      <class name="com.volvo.mfg.StepDefinition.DriverSuite">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.volvo.mfg.StepDefinition.DriverSuite@887af79]" name="beforeSuite" is-config="true" duration-ms="6200" started-at="2018-11-02T12:20:13Z" finished-at="2018-11-02T12:20:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.volvo.mfg.StepDefinition.DriverSuite@887af79]" name="beforeTest" is-config="true" duration-ms="1" started-at="2018-11-02T12:20:19Z" finished-at="2018-11-02T12:20:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.volvo.mfg.StepDefinition.DriverSuite@887af79]" name="beforeMethod" is-config="true" duration-ms="9" started-at="2018-11-02T12:20:19Z" finished-at="2018-11-02T12:20:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Trailer_Info]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.volvo.mfg.StepDefinition.DriverSuite.MASWEB_LDJIT_Trailer_Info_Display(java.lang.String)]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@6ac4944a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="MASWEB_LDJIT_Trailer_Info_Display(java.lang.String)[pri:0, instance:com.volvo.mfg.StepDefinition.DriverSuite@887af79]" name="MASWEB_LDJIT_Trailer_Info_Display" duration-ms="64656" started-at="2018-11-02T12:20:19Z" description="Functionality of LDJIT Trailer Info Tab in MASWEB End-to-End flow" finished-at="2018-11-02T12:21:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Trailer_Info]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MASWEB_LDJIT_Trailer_Info_Display -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.volvo.mfg.StepDefinition.DriverSuite@887af79]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-11-02T12:21:24Z" finished-at="2018-11-02T12:21:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.volvo.mfg.StepDefinition.DriverSuite@887af79]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-11-02T12:21:24Z" finished-at="2018-11-02T12:21:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterSuite(java.lang.String)[pri:0, instance:com.volvo.mfg.StepDefinition.DriverSuite@887af79]" name="afterSuite" is-config="true" duration-ms="1014" started-at="2018-11-02T12:21:24Z" finished-at="2018-11-02T12:21:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[N]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.volvo.mfg.StepDefinition.DriverSuite -->
+    </test> <!-- VCLAS_TESTCASES -->
+  </suite> <!-- Suite -->
+</testng-results>

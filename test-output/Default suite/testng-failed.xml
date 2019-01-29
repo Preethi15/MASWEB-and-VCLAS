@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.volvo.mfg.agv.pages.Masweb_LDJIT">
+        <methods>
+          <include name="ADMIN_MANAGEALARMS"/>
+          <include name="afterMethod"/>
+          <include name="Vclas_ReleaseNotes"/>
+          <include name="V90_DELIVERV90TASKS"/>
+          <include name="beforeSuite"/>
+          <include name="ADMIN_MANAGEALARMIDS"/>
+          <include name="beforeMethod"/>
+          <include name="CONTROL_PARAMETER"/>
+          <include name="TUGGER"/>
+          <include name="AGV_Inactive_Order_Creation"/>
+          <include name="Vclas_TransportSection"/>
+          <include name="AGV_PlanningStatus_AL_DELIVERY"/>
+          <include name="Vclas_Adminstration_Tab_Health_Check_Functionality"/>
+          <include name="Production_Controlcodes"/>
+          <include name="Vclas_Adminstration_Tab_DB_Constant_Functionality"/>
+          <include name="Vclas_Adminstration_Tab_Nodes_Functionality"/>
+          <include name="Vclas_NodesType"/>
+          <include name="AGV_Reserve_Order_Creation"/>
+          <include name="ADMIN_SHOWTASK"/>
+          <include name="SIMULATOR"/>
+          <include name="AGV_RACKCHANGER_INVALID_INPUT"/>
+          <include name="TEST_PRINTER"/>
+          <include name="Vclas_Assignments_Functionality"/>
+          <include name="Production_LocationCode"/>
+          <include name="Vclas_Adminstration_Tab_Parts_Functionality"/>
+          <include name="ADMIN_SCANNEDGOODS"/>
+          <include name="logintoMasweb"/>
+          <include name="AGV_ASSIGNMENTLIST_DELIVERY"/>
+          <include name="Vclas_Adminstration_Tab_Nodes_Screen_Functionality"/>
+          <include name="MASWEB_LDJIT_Create_New_Places"/>
+          <include name="JISJIT_TUGGER"/>
+          <include name="V60_RepairStation"/>
+          <include name="Vclas_Adminstration_Tab_User_Functionality"/>
+          <include name="Vclas_Nodes_MovebuttonVerify"/>
+          <include name="AGV_INPROGRESS_DELIVERY"/>
+          <include name="MASWEB_Help_Tab"/>
+          <include name="Vclas_Adminstration_Tab_Rooms_Functionality"/>
+          <include name="initiatingTugger"/>
+          <include name="AGV_RACKCHANGER"/>
+          <include name="afterSuite"/>
+          <include name="V60_NormalStation"/>
+          <include name="AGV_Picking_Multiple_Assignments_delivery"/>
+          <include name="Production_Plockan"/>
+          <include name="afterTest"/>
+          <include name="Production_Consumption"/>
+          <include name="AGV_SHORTAGE_DELIVERY"/>
+          <include name="CREATERACK"/>
+          <include name="Vclas_Adminstration_Tab_TAT_Functionality"/>
+          <include name="Verifystatus"/>
+          <include name="BLUEBOX"/>
+          <include name="MASWEB_Favorites_Tab"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.volvo.mfg.agv.pages.Masweb_LDJIT -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

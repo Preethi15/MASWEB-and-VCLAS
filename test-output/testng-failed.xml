@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="VCLAS_TESTCASES(failed)">
+    <classes>
+      <class name="com.volvo.mfg.StepDefinition.DriverSuite">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="MASWEB_LDJIT_Trailer_Info_Display" invocation-numbers="0">
+            <parameter name="TestName" value="Trailer_Info"/>
+            <parameter name="Browser" value="IE"/>
+          </include> <!-- MASWEB_LDJIT_Trailer_Info_Display -->
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.volvo.mfg.StepDefinition.DriverSuite -->
+    </classes>
+  </test> <!-- VCLAS_TESTCASES(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<!-- <parameter name="mail" value="Y" />  --> 
+  <test name="VCLAS_TESTCASES">
+  <classes>
+      <class name="com.volvo.mfg.StepDefinition.DriverSuite">
+      <methods>
+		        <include name="MASWEB_LDJIT_Trailer_Info_Display">
+			      <parameter name="Browser" value="IE" />
+			      <parameter name="TestName" value="Trailer_Info" />
+		       </include> 
+	       		 
+	       		
+	        </methods>  
+	     </class>
+    </classes>
+  </test> 
+  
+  
+</suite> <!-- Suite -->
